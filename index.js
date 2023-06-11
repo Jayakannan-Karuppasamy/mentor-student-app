@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     // console.log(req);
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
-    res.end('{ "name": "B42WEENG" }');
+    res.end('{ "BatchName": "B42WEENG", "StudentID": "jkannan98471@gmail.com" }');
 });
 
 server.listen(port, hostname, () => {
